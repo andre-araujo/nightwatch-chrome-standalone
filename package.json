@@ -1,0 +1,16 @@
+{
+  "name": "autovignette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "selenium": "java -jar selenium-server-standalone-3.4.0.jar",
+    "start": "nightwatch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.15"
+  }
+}
