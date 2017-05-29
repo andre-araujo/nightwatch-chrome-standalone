@@ -1,4 +1,4 @@
-```install Java```
+```brew cask install java```
 
 ```npm install```
 
