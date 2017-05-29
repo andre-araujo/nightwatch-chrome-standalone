@@ -1,12 +1,12 @@
 {
-  "name": "autovignette",
+  "name": "chromestandalone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "selenium": "java -jar selenium-server-standalone-3.4.0.jar",
-    "start": "nightwatch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run chromedriver",
+    "chromedriver": "./bin/chromedriver",
+    "test": "nightwatch"
   },
   "author": "",
   "license": "ISC",

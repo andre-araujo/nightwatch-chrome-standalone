@@ -7,28 +7,21 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : true,
-    "server_path" : "./bin/selenium-server-standalone-3.4.0.jar",
-    "log_path" : "",
-    "port" : 4444,
-    "cli_args" : {
-      "webdriver.chrome.driver" : "./bin/chromedriver"
-    }
+    "start_process" : false
   },
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://localhost",
-      "selenium_port"  : 4444,
+      "selenium_port"  : 9515,
       "selenium_host"  : "localhost",
-      "silent": true,
-      "screenshots" : {
-        "enabled" : false,
-        "path" : ""
-      },
+      "default_path_prefix" : "",
+
       "desiredCapabilities": {
         "browserName": "chrome",
-        "marionette": true
+        "chromeOptions" : {
+          "args" : ["--no-sandbox"]
+        },
+        "acceptSslCerts": true
       }
     }
   }

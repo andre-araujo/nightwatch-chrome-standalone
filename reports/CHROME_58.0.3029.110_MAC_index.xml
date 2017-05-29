@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="index"
-    errors="0" failures="0" hostname="" id="" package="index" skipped="0"
-    tests="1" time="6.053" timestamp="Mon, 29 May 2017 19:48:20 GMT">
+    errors="0" failures="1" hostname="" id="" package="index" skipped="0"
+    tests="1" time="4.156" timestamp="Mon, 29 May 2017 20:24:14 GMT">
   
-    <testcase name="Demo test Google" classname="index" time="6.053" assertions="3">
+    <testcase name="start vignette" classname="index" time="4.156" assertions="2">
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be present for 1000 milliseconds.">    at Object.start vignette (/Users/aluis/projects/nightwatch/tests/index.js:7:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>
